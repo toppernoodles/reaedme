@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topper Noodles - Delicious & Spicy</title>
+    <style>
+        @keyframes gradientBG {
+            0% {background-position: 0% 50%;}
+            50% {background-position: 100% 50%;}
+            100% {background-position: 0% 50%;}
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background: linear-gradient(-45deg, #ff9966, #ff5e62, #ffcc00, #ff6699);
+            background-size: 400% 400%;
+            animation: gradientBG 10s ease infinite;
+            color: white;
+        }
+        header {
+            background: #ff4500;
+            color: white;
+            padding: 20px;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .container {
+            padding: 20px;
+        }
+        .btn {
+            background: #ff4500;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 10px;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background: #ff2200;
+            transform: scale(1.1);
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .product {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            max-width: 300px;
+            color: black;
+            transition: 0.3s;
+        }
+        .product:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        }
+        footer {
+            margin-top: 20px;
+            padding: 15px;
+            background: #222;
+            color: white;
+            font-size: 18px;
+        }
+        .contact {
+            margin-top: 20px;
+            padding: 20px;
+            background: #fff;
+            color: black;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>🍜 Topper Noodles - Taste the Best! 🍜</header>
+    <div class="container">
+        <h2>Welcome to the home of delicious noodles!</h2>
+        <p>Spicy, tasty, and made with love. Try our flavors today!</p>
+        <a href="#order" class="btn">Order Now</a>
+    </div>
+    <div class="products">
+        <div class="product">
+            <img src="noodle.jpg" alt="Spicy Noodles" width="100%">
+            <h3>Spicy Ramen</h3>
+            <p>Hot and flavorful spicy ramen.</p>
+            <a href="#order" class="btn">Buy Now</a>
+        </div>
+        <div class="product">
+            <img src="cheese.jpg" alt="Cheese Noodles" width="100%">
+            <h3>Cheesy Noodles</h3>
+            <p>Cheesy and creamy goodness.</p>
+            <a href="#order" class="btn">Buy Now</a>
+        </div>
+    </div>
+    <div class="contact">
+        <h2>Contact Us</h2>
+        <p><strong>Misra - Topper Noodle Specialist</strong></p>
+        <p>Email: contact@toppernoodles.com</p>
+        <p>Phone: +123-456-7890</p>
+    </div>
+    <footer>
+        &copy; 2025 Topper Noodles | All Rights Reserved
+    </footer>
+</body>
+</html>
